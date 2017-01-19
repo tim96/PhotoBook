@@ -18,7 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
 
             // Custom Bundles
-            new AppBundle\AppBundle(),
+            new Tim\PhotoBook\DataBundle\TimPhotoBookDataBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
