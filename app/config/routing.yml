@@ -1,3 +1,11 @@
+tim_photo_book_frontend:
+    resource: "@TimPhotoBookFrontendBundle/Resources/config/routing.yml"
+    prefix:   /
+
+tim_user:
+    resource: "@TimUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
 tim_photo_book_data:
     resource: "@TimPhotoBookDataBundle/Resources/config/routing.yml"
     prefix:   /

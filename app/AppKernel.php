@@ -19,6 +19,8 @@ class AppKernel extends Kernel
 
             // Custom Bundles
             new Tim\PhotoBook\DataBundle\TimPhotoBookDataBundle(),
+            new Tim\UserBundle\TimUserBundle(),
+            new Tim\PhotoBook\FrontendBundle\TimPhotoBookFrontendBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
